@@ -1,102 +1,114 @@
 body {
-  /* Old browsers */
-  background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
-  margin: 0;
-  padding: 0;
+  margin     : 0;
+  padding    : 0;
+  background : #141E30;
+  background : -webkit-linear-gradient(
+                 -45deg,
+                 #35577D,
+                 #141E30
+               );
+  background : linear-gradient(
+                 -45deg,
+                 #1f1e1f,
+                 #111111
+               );
 }
 
 header {
-  width: auto;
-  background: purple;
-  padding: 50px;
+  display         : flex;
+  width           : auto;
+  padding         : 30px;
+  background      : #1f1e1f;
+  align-items     : center;
+  justify-content : space-around;
+}
+
+header img {
+  max-height : 100px;
+  float      : left;
 }
 
 footer {
-background: red;
-padding: 25px;
+  padding    : 25px;
+  background : #9013fe;
 }
 
 footer p {
-  margin: 0;
-}
-
-header h1 {
-  padding: 0px;
+  margin : 0;
 }
 
 h1,
 h2 {
-  font-family: Georgia;
+  font-family : "Renner*",
+                sans-serif;
 }
 
 h1 {
-  color: #FFF;
-  font-size: 2em;
-  width: 100%;
-  text-align: center;
+  width      : 100%;
+  color      : #FFF;
+  text-align : center;
+  font-size  : 2em;
 }
 
 h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+  width          : 70%;
+  padding-bottom : 30px;
+  color          : rgba(255, 255, 255, 0.5);
+  border-bottom  : 1px solid rgba(255, 255, 255, 0.5);
+  text-align     : left;
+  font-size      : 22px;
+  font-weight    : 100;
+  line-height    : 24px;
 }
 
-p {
-  color: AliceBlue;
-  line-height: 1.3em;
-  text-align: justify;
-  width: 100%;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: bold;
+li,
+p,
+ul {
+  width          : 100%;
+  color          : AliceBlue;
+  text-align     : justify;
+  font-family    : "Renner*",
+                   sans-serif;
+  font-size      : 18px;
+  line-height    : 1.3em;
+  letter-spacing : 0.015em;
 }
 
 .tldr {
-  background: green;
-  padding: 20px;
-  padding-top: 40px;
+  padding    : 10px 5px;
+  background : #9013fe;
+}
+
+p.tldr {
+  width          : auto;
+  font-size      : 1.25rem;
+  line-height    : 1.5;
+  letter-spacing : 0.015em;
 }
 
 .content {
-  flex-basis: 40%;
+  flex-basis : 40%;
 }
 
 .spacer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
 }
 
 .container {
-  padding: 40px;
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-
+  display         : flex;
+  padding         : 40px;
+  align-items     : stretch;
+  justify-content : space-around;
 }
-
-.guidelines {
-}
-
 
 .vl {
- border-left: 6px solid green;
- height: 900px;
- border-radius: 5px;
+  height        : 900px;
+  border-left   : 6px solid white;
+  border-radius : 5px;
 }
 
 .experiences {
-  order: 2;
+  order : 2;
 }
