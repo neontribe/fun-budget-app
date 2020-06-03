@@ -1,0 +1,102 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: auto;
+  background: purple;
+  padding: 50px;
+}
+
+footer {
+background: red;
+padding: 25px;
+}
+
+footer p {
+  margin: 0;
+}
+
+header h1 {
+  padding: 0px;
+}
+
+h1,
+h2 {
+  font-family: Georgia;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: justify;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tldr {
+  background: green;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.content {
+  flex-basis: 40%;
+}
+
+.spacer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+
+.guidelines {
+}
+
+
+.vl {
+ border-left: 6px solid green;
+ height: 900px;
+ border-radius: 5px;
+}
+
+.experiences {
+  order: 2;
+}
