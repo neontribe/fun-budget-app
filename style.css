@@ -89,31 +89,12 @@ p.tldr {
   letter-spacing : 0.015em;
 }
 
-.content {
-  flex-basis : 40%;
-}
-
-.spacer {
-  display         : flex;
-  align-items     : center;
-  justify-content : center;
-}
-
 .container {
-  display         : flex;
-  padding         : 40px;
-  align-items     : stretch;
-  justify-content : space-around;
+  padding         : 80px 40px;
 }
 
-.vl {
-  height        : 80%;
-  border-left   : 4px solid rgba(255, 255, 255, 0.75);
-  border-radius : 5px;
-}
-
-.experiences {
-  order : 2;
+.content {
+  width: 80%;
 }
 
 .title {
