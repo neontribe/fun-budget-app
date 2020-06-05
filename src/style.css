@@ -1,31 +1,25 @@
 body {
   margin     : 0;
   padding    : 0;
-  background : #141E30;
-  background : -webkit-linear-gradient(
-                 -45deg,
-                 #35577D,
-                 #141E30
-               );
-  background : linear-gradient(
-                 -45deg,
-                 #1f1e1f,
-                 #111111
-               );
+  background : #1F1E1F;
 }
 
 header {
-  display         : flex;
-  width           : auto;
-  padding         : 30px;
-  background      : #1f1e1f;
-  align-items     : center;
-  justify-content : space-around;
+  display    : block;
+  width      : auto;
+  padding    : 30px;
+  background : #1f1e1f;
+  text-align : center;
 }
 
 header img {
-  max-height : 100px;
-  float      : left;
+  position    : absolute;
+  top         : 20px;
+  left        : 5%;
+  width       : 100px;
+  height      : 100px;
+  margin-left : -50px;
+  /* Half the width */
 }
 
 footer {
@@ -52,9 +46,10 @@ h1 {
 
 h2 {
   width          : 70%;
-  padding-bottom : 30px;
-  color          : rgba(255, 255, 255, 0.5);
-  border-bottom  : 1px solid rgba(255, 255, 255, 0.5);
+  padding-top    : 30px;
+  padding-bottom : 20px;
+  color          : white;
+  border-bottom  : 1px solid white;
   text-align     : left;
   font-size      : 22px;
   font-weight    : 100;
@@ -65,7 +60,7 @@ li,
 p,
 ul {
   width          : 100%;
-  color          : AliceBlue;
+  color          : rgba(255, 255, 255, 0.95);
   text-align     : justify;
   font-family    : "Renner*",
                    sans-serif;
@@ -81,7 +76,7 @@ ul {
 
 p.tldr {
   width          : auto;
-  font-size      : 1.25rem;
+  font-size      : 1.125rem;
   line-height    : 1.5;
   letter-spacing : 0.015em;
 }
@@ -104,11 +99,15 @@ p.tldr {
 }
 
 .vl {
-  height        : 900px;
-  border-left   : 6px solid white;
+  height        : 80%;
+  border-left   : 4px solid rgba(255, 255, 255, 0.75);
   border-radius : 5px;
 }
 
 .experiences {
   order : 2;
+}
+
+.title {
+  align-self : center;
 }
