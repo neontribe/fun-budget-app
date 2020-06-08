@@ -91,10 +91,10 @@ p.tldr {
 }
 
 .container {
+  max-width   : 1200px;
+  margin      : auto;
   padding     : 40px;
   padding-top : 0px;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .content {
