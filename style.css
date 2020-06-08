@@ -18,8 +18,6 @@ header img {
   left        : 5%;
   width       : 100px;
   height      : 100px;
-  margin-left : -50px;
-  /* Half the width */
 }
 
 footer {
@@ -95,11 +93,9 @@ p.tldr {
   margin      : auto;
   padding     : 40px;
   padding-top : 0px;
+  width: 80%;
 }
 
-.content {
-  width : 80%;
-}
 
 .title {
   align-self : center;
