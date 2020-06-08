@@ -93,6 +93,8 @@ p.tldr {
 .container {
   padding     : 40px;
   padding-top : 0px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .content {
