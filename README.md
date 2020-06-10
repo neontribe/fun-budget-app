@@ -1,12 +1,12 @@
 # fun-budget-app
 
-Hosted at [GitHub Pages.] (neontribe.github.io/fun-budget-app)
+Hosted at [GitHub Pages.](neontribe.github.io/fun-budget-app)
 
 This is a static site to encourage Neontribers to use the Fun Budget.
 
 ## Setup
 
-Download or clone the repository and navigate to it in your file browser and open `index.html` in your favourite browser.
+Download or clone the repository, navigate to it in your file browser and open `index.html` with a web browser.
 
 ## Adding past experiences to the site
 
