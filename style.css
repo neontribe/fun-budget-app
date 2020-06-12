@@ -8,16 +8,9 @@ header {
   display    : block;
   width      : auto;
   padding    : 30px;
-<<<<<<< HEAD
   background : #131313;
-=======
-<<<<<<< Updated upstream
-  background : #9013fe;
-=======
-  background : #131313;
->>>>>>> Stashed changes
->>>>>>> 78e2b7d2e58598fbe5fa7846ff8e472de0ecb27b
   text-align : center;
+  margin-bottom: 15px;
 }
 
 header img {
@@ -83,21 +76,8 @@ ul {
 
 .tldr {
   margin: auto;
-<<<<<<< HEAD
-  margin-top: 25px;
   background : #4C018E;
   padding: 10px 5px;
-=======
-<<<<<<< Updated upstream
-  background : #4C018E;
-  padding-bottom: 10px;
-=======
-  margin-top: 25px;
-  background : #4C018E;
-  padding: 10px 5px;
->>>>>>> Stashed changes
-
->>>>>>> 78e2b7d2e58598fbe5fa7846ff8e472de0ecb27b
 }
 
 p.tldr {
