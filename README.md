@@ -1,6 +1,7 @@
 # fun-budget-app
 
-Hosted at [GitHub Pages.](http://neontribe.github.io/fun-budget-app)
+Hosted at GitHub Pages.
+http://neontribe.github.io/fun-budget-app
 
 This is a static site to encourage Neontribers to use the Fun Budget.
 
